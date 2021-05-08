@@ -1,0 +1,94 @@
+<html id="root">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<?if($SEO_TITLE$)?><title>$SEO_TITLE$</title><?else?><title>$SECTION_NAME$ - $SITE_NAME$</title><?endif?>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<?if($SEO_KEYWORDS$)?>
+	<meta name="keywords" content="$SEO_KEYWORDS$">
+	<?endif?><?$META_KEYWORDS$?>
+	<?if($SEO_DESCRIPTION$)?>
+	<meta name="description" content="$SEO_DESCRIPTION$">
+	<?endif?><?$META_DESCRIPTION$?>
+	<?if($MODULE_ID$ != 'shop')?>
+	<link type="text/css" rel="StyleSheet" href="/.s/src/shop.css"/>
+	<?endif?>
+	<style>
+		@font-face {
+			font-family: "FontAwesome";
+			font-style: normal;
+			font-weight: normal;
+			src: url("/.s/src/font/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"), url("/.s/src/font/fontawesome-webfont.woff2?v=4.3.0") format("woff2"), url("/.s/src/font/fontawesome-webfont.woff?v=4.3.0") format("woff"), url("/.s/src/font/fontawesome-webfont.ttf?v=4.3.0") format("truetype"), url("/.s/src/font/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
+		}
+	</style>
+	<link rel="stylesheet" href="/.s/src/css/1812.css" type="text/css" media="all"/>
+</head>
+<body class="$MODULE_ID$">
+$ADMIN_BAR$
+$GLOBAL_AHEADER$
+$GLOBAL_PROMO$
+<?if($PAGE_ID$!='sitePage1')?>
+<div class="wrapper main_wrapper">
+	<div id="casing" class="upage_$PAGE_ID$">
+		<?if($MODULE_ID$='forum')?>
+		<div class="forum-box"><?endif?>
+			<!-- <middle> -->
+			<div id="content"<?if($HIDE_CLEFTER$)?>class="wide-page"<?endif?>>
+			<section><!-- <body> --><div class="breadcrumbs-wrapper">
+	<div class="breadcrumbs"><a href="$HOME_PAGE_LINK$"><!--<s5176>-->Home<!--</s>--></a> &raquo; $SECTION_NAME$</div>
+</div>
+<div class="items-stat-wrapper">
+	<div class="items-stat"><!--<s5246>-->Comments found<!--</s>-->: <b>$NUM_ENTRIES$</b><?if($NUM_SHOWN$)?><br /><!--<s5247>-->Comments displayed<!--</s>-->: <b>$NUM_SHOWN$</b><?endif?></div>
+	<?if($PAGE_SELECTOR$)?><div class="paging-wrapper-top"><!--<s3015>-->Pages<!--</s>-->: $PAGE_SELECTOR$</div><?endif?>
+</div><hr />
+<?if($MODULE_SELECTOR$)?>$MODULE_SELECTOR$<hr /><?endif?>
+$BODY$<hr />
+<?if($PAGE_SELECTOR1$)?><div class="paging-wrapper-bottom">$PAGE_SELECTOR1$</div><?endif?><!-- </body> --></section>
+		</div>
+		<?if(!$HIDE_CLEFTER$)?>
+		<aside id="sidebar">
+			<?if($USERS_ON$)?>
+			<div class="sidebox marked">
+				<div class="sidetitle"><span><!--<s5212>-->Welcome<!--</s>-->!</span></div>
+				<div class="inner">
+					<div class="user-box">
+						<?if($USER_AVATAR_URL$)?>
+						<img class="userAvSidebar" src="$USER_AVATAR_URL$" alt="">
+						<?else?>
+						<span class="no_avatar material-icons">person</span>
+						<?endif?>
+						<div class="user-ttl"><?if($USER_LOGGED_IN$)?>
+							<!--<s5212>-->Welcome<!--</s>-->, <a href="$PERSONAL_PAGE_LINK$"><b>$USERNAME$</b></a>!<?else?>
+							<!--<s5212>-->Welcome<!--</s>-->, <span>$USERNAME$</span>!<?endif?></div>
+						<div class="user-btns"><?if($USER_LOGGED_IN$)?><a title="My profile"
+																		  href="$PERSONAL_PAGE_LINK$"><!--<s5214>-->My profile<!--</s>--></a>
+							<span>|</span> <a title="Log out" href="$LOGOUT_LINK$"><!--<s5164>-->Log out<!--</s>--></a><?else?><a
+									title="Sign Up" href="$REGISTER_LINK$"><!--<s3089>-->Sign Up<!--</s>--></a> <span>|</span> <a
+									title="Log In" href="$LOGIN_LINK$"><!--<s3087>-->Log In<!--</s>--></a><?endif?></div>
+					</div>
+				</div>
+			</div>
+			<?endif?>
+			$GLOBAL_CLEFTER$
+
+		</aside>
+		<?endif?>
+		<!-- </middle> -->
+		<?if($MODULE_ID$='forum')?></div>
+	<?endif?>
+</div>
+</div>
+<?endif?>
+$GLOBAL_BFOOTER$
+<div class="scrollup-block-right">
+	<button id="scrollup" class="material-icons goOnTop">arrow_upward</button>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" async></script>
+<script type="text/javascript" src="/.s/t/1812/ui.js"></script>
+
+<script src="/.s/t/1812/owl.carousel.min.js"></script>
+</body>
+</html>
+
+
+
+

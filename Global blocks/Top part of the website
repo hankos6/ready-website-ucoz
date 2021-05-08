@@ -1,0 +1,16 @@
+<header>
+	<div class="wrapper">
+		<div class="logo"><a class="logo-lnk" href="$HOME_PAGE_LINK$" title="Home">$SITE_NAME$</a></div>
+		<div class="mobile-menu-list">
+			<div class="show-menu material-icons" id="show-menu">menu</div>
+		</div>
+		<div class="main-menu">
+			<nav id="catmenu">
+				<!-- <sblock_nmenu> -->
+<?if($NMENU_1$)?><!-- <bc> -->$NMENU_1$<!-- </bc> --><?endif?>
+<!-- </sblock_nmenu> -->
+				<div class="clr"></div>
+			</nav>
+		</div>
+	</div>
+</header>

@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>List of users</title>
+<link type="text/css" rel="StyleSheet" href="/.s/src/css/1812.css">
+</head>
+<body class="$MODULE_ID$">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<div id="casing" class="popuptable">
+	<div class="popuptitle">
+		<span>List of users</span>
+	</div>
+	<div class="popupbody"><div class="items-stat-wrapper">
+	<div class="items-stat"><!--<s5170>-->Users found:<!--</s>--></div>
+	<?if($PAGE_SELECTOR$)?><div class="paging-wrapper-top"><!--<s3015>-->Pages<!--</s>-->: $PAGE_SELECTOR$</div><?endif?>
+</div><hr />
+<div align="center">$BODY$</div><hr />
+<div align="center">$USERS_SEARCH_FORM$</div></div>
+</div>
+<script type="text/javascript" src="/.s/t/1812/ui.js"></script>
+<script src="/.s/t/1812/owl.carousel.min.js"></script>
+
+</body>
+</html>
