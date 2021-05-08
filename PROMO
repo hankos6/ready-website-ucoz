@@ -1,0 +1,226 @@
+<?if($PAGE_ID$='sitePage1')?>
+<main class="promo">
+	<div class="owl-one owl-carousel owl-theme">
+		<div class="item">
+			<div class="left-itm">
+				<h2>Lorem ipsum dolor sit amet.</h2>
+				<p>Lorem ipsum dolor sit amet,no sea takimata sanctus est Lorem ipsum dolor sit amet. Stet clita kasd
+					gubergren, Stet clita kasd gubergren, </p>
+				<a href="#" class="link-button">More</a>
+			</div>
+			<div class="right-itm">
+				<img class="first-img" src="/.s/t/1812/slide-img-1.png" alt="Image slide">
+			</div>
+		</div>
+		<div class="item">
+			<div class="left-itm">
+				<h2>Lorem ipsum dolor sit amet.</h2>
+				<p>Lorem ipsum dolor sit amet,no sea takimata sanctus est Lorem ipsum dolor sit amet. Stet clita kasd
+					gubergren, Stet clita kasd gubergren, </p>
+				<a href="#" class="link-button">More</a>
+			</div>
+			<div class="right-itm">
+				<img src="/.s/t/1812/slide-img-2.png" alt="Image slide">
+			</div>
+		</div>
+		<div class="item">
+			<div class="left-itm">
+				<h2>Lorem ipsum dolor sit amet.</h2>
+				<p>Lorem ipsum dolor sit amet,no sea takimata sanctus est Lorem ipsum dolor sit amet. Stet clita kasd
+					gubergren, Stet clita kasd gubergren, </p>
+				<a href="#" class="link-button">More</a>
+			</div>
+			<div class="right-itm">
+				<img src="/.s/t/1812/slide-img-3.png" alt="Image slide">
+			</div>
+		</div>
+	</div>
+	<div class="land-block1">
+		<div class="wrapper flex-wrapper">
+			<div class="lf-side">
+				<h3>Lorem ipsum dolor sit amet,Stet clita kasd gubergren, sed diam voluptua.</h3>
+			</div>
+			<div class="rg-side">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+					et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+					aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen derit in voluptate velit esse</p>
+				<a class="link-button" href="#">Contact</a>
+				<span>Or, call <a href="tel:+11234567890">+1 123 456 78 90</a></span>
+			</div>
+		</div>
+	</div>
+	<div class="land-block2">
+		<div class="wrapper">
+			<div class="lf-top">
+				<h3>Lorem ipsum dolor sit amet.</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+					et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+			</div>
+			<div class="rg-bottom">
+				<ul class="work-list flex-wrapper">
+					<li>
+						<img src="/.s/t/1812/computer_repair.png" alt="computer_repair">
+						<h4>Lorem ipsum dolor</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+					</li>
+					<li>
+						<img src="/.s/t/1812/download_app.png" alt="download_app">
+						<h4>Lorem ipsum dolor</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+					</li>
+					<li>
+						<img src="/.s/t/1812/el-recovery.png" alt="recovery">
+						<h4>Lorem ipsum dolor</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="land-block3 owl-two owl-carousel owl-theme">
+		<div class="item">
+			<div class="left-itm">
+				<h3>Lorem ipsum dolor sit amet.</h3>
+				<p>Lorem ipsum dolor sit amet,no sea takimata sanctus est Lorem ipsum dolor sit amet. Stet clita kasd
+					gubergren, Stet clita kasd gubergren, </p>
+			</div>
+			<div class="right-itm">
+				<img src="/.s/t/1812/sldier2-img-1.png" alt="Image slide">
+			</div>
+		</div>
+		<div class="item">
+			<div class="left-itm">
+				<h3>Lorem ipsum dolor sit amet.</h3>
+				<p>Lorem ipsum dolor sit amet,no sea takimata sanctus est Lorem ipsum dolor sit amet. Stet clita kasd
+					gubergren, Stet clita kasd gubergren, </p>
+			</div>
+			<div class="right-itm">
+				<img src="/.s/t/1812/sldier2-img-2.png" alt="Image slide">
+			</div>
+		</div>
+		<div class="item">
+			<div class="left-itm">
+				<h3>Lorem ipsum dolor sit amet.</h3>
+				<p>Lorem ipsum dolor sit amet,no sea takimata sanctus est Lorem ipsum dolor sit amet. Stet clita kasd
+					gubergren, Stet clita kasd gubergren, </p>
+			</div>
+			<div class="right-itm">
+				<img src="/.s/t/1812/sldier2-img-3.png" alt="Image slide">
+			</div>
+		</div>
+	</div>
+	<div class="land-block4">
+		<div class="wrapper">
+			<div class="control-button">
+				<a class="but-select" href="#iPhone-price">iPhone</a>
+				<a href="#iPad-price">iPad</a>
+				<a href="#Macbook-price">Macbook</a>
+			</div>
+			<div class="owl-three owl-carousel owl-theme">
+				<div class="item" data-hash="iPhone-price">
+					<ul class="price-list-device">
+						<li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. <span
+								class="price-dv">100 usd</span></p></li>
+						<li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. <span
+								class="price-dv">100 usd</span></p></li>
+						<li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. <span
+								class="price-dv">100 usd</span></p></li>
+						<li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. <span
+								class="price-dv">100 usd</span></p></li>
+						<li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. <span
+								class="price-dv">100 usd</span></p></li>
+						<li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. <span
+								class="price-dv">100 usd</span></p></li>
+						<li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. <span
+								class="price-dv">100 usd</span></p></li>
+					</ul>
+
+				</div>
+				<div class="item" data-hash="iPad-price">
+					<ul class="price-list-device">
+						<li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. <span
+								class="price-dv">100 usd</span></p></li>
+						<li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. <span
+								class="price-dv">100 usd</span></p></li>
+						<li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. <span
+								class="price-dv">100 usd</span></p></li>
+						<li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. <span
+								class="price-dv">100 usd</span></p></li>
+						<li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. <span
+								class="price-dv">100 usd</span></p></li>
+						<li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. <span
+								class="price-dv">100 usd</span></p></li>
+						<li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. <span
+								class="price-dv">100 usd</span></p></li>
+					</ul>
+				</div>
+				<div class="item" data-hash="Macbook-price">
+					<ul class="price-list-device">
+						<li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. <span
+								class="price-dv">100 usd</span></p></li>
+						<li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. <span
+								class="price-dv">100 usd</span></p></li>
+						<li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. <span
+								class="price-dv">100 usd</span></p></li>
+						<li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. <span
+								class="price-dv">100 usd</span></p></li>
+						<li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. <span
+								class="price-dv">100 usd</span></p></li>
+						<li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. <span
+								class="price-dv">100 usd</span></p></li>
+						<li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. <span
+								class="price-dv">100 usd</span></p></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="land-block5">
+		<div class="wrapper">
+			<ul class="flex-wrapper">
+				<li>
+					<span class="ar-title">82</span>
+					<p>Lorem ipsum</p>
+				</li>
+				<li>
+					<span class="ar-title">127</span>
+					<p>Lorem ipsum</p>
+				</li>
+				<li>
+					<span class="ar-title">326</span>
+					<p>Lorem ipsum</p>
+				</li>
+				<li>
+					<span class="ar-title">3126</span>
+					<p>Lorem ipsum</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="land-block6">
+		<div class="wrapper">
+			<div class="owl-four owl-carousel owl-theme">
+				<div class='item'>
+					<p class='mess-com'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+					<a href='#'>Lorem ipsum</a>
+				</div>
+				<div class='item'>
+					<p class='mess-com'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+					<a href='#'>Lorem ipsum</a>
+				</div>
+				<div class='item'>
+					<p class='mess-com'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+					<a href='#'>Lorem ipsum</a>
+				</div>
+				<div class='item'>
+					<p class='mess-com'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+					<a href='#'>Lorem ipsum</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>
+<?endif?>

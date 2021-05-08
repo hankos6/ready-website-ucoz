@@ -1,0 +1,77 @@
+<div class="uComment $CLASS$">
+	$MICROMARKING$
+	<span class="uc-avatar">
+		<?if($USER_AVATAR_URL$)?>
+			<?if($SOC_LINK$)?><a rel="nofollow" href="$SOC_LINK$" title="$USERNAME$"><img src="$USER_AVATAR_URL$" alt="avatar" /></a>
+			<?else?><?if($PROFILE_URL$)?><a href="$PROFILE_URL$" title="$USERNAME$"><img src="$USER_AVATAR_URL$" alt="avatar" /></a><?else?><img src="$USER_AVATAR_URL$" alt="avatar" /><?endif?><?endif?>
+		<?else?><img src="/.s/img/icon/social/noavatar.png" alt="avatar" /><?endif?>
+	</span>
+
+	<div class="uc-content">
+		<div class="uc-top">
+			<div class="uc-top-right">
+				<?if($GOOD_COMMENT_URL$)?>
+					<a href="$GOOD_COMMENT_URL$"><img alt="" src="/.s/img/icon/thumbu2.png" title="Good post" style="margin:0 4px; vertical-align:middle;"></a>
+					<?if($COMMENT_RATING$ > 0)?>
+					<span>
+						<span>$COMMENT_RATING$</span>
+					</span>
+					<?else?>
+					$COMMENT_RATING$
+					<?endif?>
+					<a href="$BAD_COMMENT_URL$"><img alt="" src="/.s/img/icon/thumbd2.png" title="Bad post" style="margin:0 4px; vertical-align:middle;"></a>
+				<?else?>
+					<img alt="" src="/.s/img/icon/thumbu2_.png" title="Good post" style="margin:0 4px; vertical-align:middle; opacity:.5; ">
+					<?if($COMMENT_RATING$ > 0)?>
+					<span>
+						<span>$COMMENT_RATING$</span>
+					</span>
+					<?else?>
+					$COMMENT_RATING$
+					<?endif?>
+					<img alt="" src="/.s/img/icon/thumbd2_.png" title="Bad post" style="margin:0 4px; vertical-align:middle; opacity:.5;">
+				<?endif?>
+
+				<?if($MODER_PANEL$)?>
+				$MODER_PANEL$
+				<?endif?>
+			</div>
+
+			<div class="uc-top-left">
+				<a href="#ent$ID$" onclick="prompt('', location.protocol + '//' + location.hostname + location.pathname + location.search + '#comEnt$ID$' ); if (window['comEnt$ID$']) { window['comEnt$ID$'].scrollIntoView({ block:'center', behavior:'smooth' }); return false; }" name="ent$ID$"><b>$NUMBER$</b></a>
+				<?if($SOC_TYPE$)?>
+				<img src="/.s/img/icon/social/16/$SOC_TYPE$.png" alt="" />
+				<?endif?>
+
+				<?if($USERNAME$)?>
+				<a href="$PROFILE_URL$" class="uc-profile-link">
+					<span>$USERNAME$</span>
+				</a>
+				<?else?>
+					<?if($SOC_LINK$)?>
+					<a href="$SOC_LINK$" rel="nofollow" class="uc-profile-link">
+						<span>$NAME$</span>
+					</a>
+					<?else?>
+					<span>
+						<span>$NAME$</span>
+					</span>
+					<?endif?>
+				<?endif?>
+				<span class="uc-opacity">&#8226; $TIME$, $DATE$</span>
+				<?if($ENTRY_URL$)?>[<a href="$ENTRY_URL$" target="_blank" title="Go to entry page">Entry</a>]<?endif?>
+			</div>
+		</div>
+
+		<div class="uc-message cMessage">$MESSAGE$</div>
+
+		<?if($ANSWER$)?>
+		<div class="uc-answer cAnswer"><b>Answer</b>: $ANSWER$</div>
+		<?endif?>
+
+		<?if($ANSWER_URL$)?>
+		<div class="uc-answer-link"><a href="$ANSWER_URL$">Reply</a></div>
+		<?endif?>
+	</div>
+</div>
+

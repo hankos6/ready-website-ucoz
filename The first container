@@ -1,0 +1,171 @@
+
+<!-- <block1> -->
+<?if($BASKET$)?>
+<div class="sidebox">
+				<div class="sidetitle">
+					<span><!-- <bt> --><!--<s5441>-->Shopping cart<!--</s>--><!-- </bt> --></span></div>
+				<div class="inner">
+					<!-- <bc> -->$BASKET$<!-- </bc> -->
+				</div>
+			</div>
+<?endif?>
+<!-- </block1> -->
+
+<!-- <block2> -->
+<?if($CURRENCY$)?>
+<div class="sidebox">
+				<div class="sidetitle">
+					<span><!-- <bt> --><!--<s5442>-->Currency<!--</s>--><!-- </bt> --></span></div>
+				<div class="inner">
+					<!-- <bc> -->$CURRENCY$<hr><?$RATE$()?><!-- </bc> -->
+				</div>
+			</div>
+<?endif?>
+<!-- </block2> -->
+
+<!-- <block3> -->
+<?if($SPEC_FILTER$)?>
+<div class="sidebox">
+				<div class="sidetitle">
+					<span><!-- <bt> --><!--<s50110>-->Search filter<!--</s>--><!-- </bt> --></span></div>
+				<div class="inner">
+					<!-- <bc> -->$SPEC_FILTER$<!-- </bc> -->
+				</div>
+			</div>
+<?endif?>
+<!-- </block3> -->
+
+<!-- <block4> -->
+<?if($SHFEED$)?>
+<div class="sidebox">
+				<div class="sidetitle">
+					<span><!-- <bt> --><!--<s50126>-->Activity feed<!--</s>--><!-- </bt> --></span></div>
+				<div class="inner">
+					<!-- <bc> -->$SHFEED$<!-- </bc> -->
+				</div>
+			</div>
+<?endif?>
+<!-- </block4> -->
+
+<!-- <block5> -->
+<?if($CATEGORIES$)?>
+<div class="sidebox">
+				<div class="sidetitle">
+					<span><!-- <bt> --><!--<s5351>-->Section categories<!--</s>--><!-- </bt> --></span></div>
+				<div class="inner">
+					<!-- <bc> -->$CATEGORIES$<!-- </bc> -->
+				</div>
+			</div>
+<?endif?>
+<!-- </block5> -->
+
+<!-- <block6> -->
+<?if($SEARCH_FORM$)?>
+<div class="sidebox">
+				<div class="sidetitle">
+					<span><!-- <bt> --><!--<s3163>-->Search<!--</s>--><!-- </bt> --></span></div>
+				<div class="inner">
+					<div align="center"><!-- <bc> -->$SEARCH_FORM$<!-- </bc> --></div>
+				</div>
+			</div>
+<?endif?>
+<!-- </block6> -->
+
+<!-- <block7> -->
+<?if($LOGIN_FORM$)?>
+<div class="sidebox">
+				<div class="sidetitle">
+					<span><!-- <bt> --><!--<s5158>-->Log In<!--</s>--><!-- </bt> --></span></div>
+				<div class="inner">
+					<!-- <bc> -->$LOGIN_FORM$<!-- </bc> -->
+				</div>
+			</div>
+<?endif?>
+<!-- </block7> -->
+
+<!-- <block8> -->
+<?if($CHANNELS$)?>
+<div class="sidebox">
+				<div class="sidetitle">
+					<span><!-- <bt> --><!--<s6439>-->Channel categories<!--</s>--><!-- </bt> --></span></div>
+				<div class="inner">
+					<!-- <bc> -->$CHANNELS$<!-- </bc> -->
+				</div>
+			</div>
+<?endif?>
+<!-- </block8> -->
+
+<!-- <block9> -->
+<?if($CALENDAR$)?>
+<div class="sidebox">
+				<div class="sidetitle">
+					<span><!-- <bt> --><!--<s5171>-->Calendar<!--</s>--><!-- </bt> --></span></div>
+				<div class="inner">
+					<div align="center"><!-- <bc> -->$CALENDAR$<!-- </bc> --></div>
+				</div>
+			</div>
+<?endif?>
+<!-- </block9> -->
+
+<!-- <block10> -->
+<?if($ARCHIVE_LINKS$)?>
+<div class="sidebox">
+				<div class="sidetitle">
+					<span><!-- <bt> --><!--<s5347>-->Entries archive<!--</s>--><!-- </bt> --></span></div>
+				<div class="inner">
+					<!-- <bc> -->$ARCHIVE_LINKS$<!-- </bc> -->
+				</div>
+			</div>
+<?endif?>
+<!-- </block10> -->
+
+<!-- <block11> -->
+<?if($POLL$)?>
+<div class="sidebox">
+				<div class="sidetitle">
+					<span><!-- <bt> --><!--<s5207>-->Our poll<!--</s>--><!-- </bt> --></span></div>
+				<div class="inner">
+					<!-- <bc> -->$POLL$<!-- </bc> -->
+				</div>
+			</div>
+<?endif?>
+<!-- </block11> -->
+
+<!-- <block12> -->
+<?if($CHAT_BOX$)?>
+<div class="sidebox">
+				<div class="sidetitle">
+					<span><!-- <bt> --><!--<s3199>-->Chat Box<!--</s>--><!-- </bt> --></span></div>
+				<div class="inner">
+					<!-- <bc> -->$CHAT_BOX$<!-- </bc> -->
+				</div>
+			</div>
+<?endif?>
+<!-- </block12> -->
+
+<!-- <block13> -->
+<div class="sidebox">
+				<div class="sidetitle">
+					<span><!-- <bt> --><!--<s5204>-->Site friends<!--</s>--><!-- </bt> --></span></div>
+				<div class="inner">
+					<!-- <bc> --><!--<s1546>--><ul>
+<li><a href="http://blog.ucoz.com/" target="_blank" rel="noopener nofollow">Official Blog</a></li>
+<li><a href="http://forum.ucoz.com/" target="_blank" rel="noopener nofollow">uCoz Community</a></li>
+<li><a href="http://faq.ucoz.com/" target="_blank" rel="noopener nofollow">FAQ</a></li>
+</ul><!--</s>--><!-- </bc> -->
+				</div>
+			</div>
+<!-- </block13> -->
+
+<!-- <block14> -->
+<?if($COUNTER$ || $ONLINE_COUNTER$)?>
+<div class="sidebox">
+				<div class="sidetitle">
+					<span><!-- <bt> --><!--<s5195>-->Statistics<!--</s>--><!-- </bt> --></span></div>
+				<div class="inner">
+					<div align="center"><!-- <bc> -->$COUNTER$<?if($ONLINE_COUNTER$)?><hr />$ONLINE_COUNTER$$ONLINE_USERS_LIST$<?endif?><!-- </bc> --></div>
+				</div>
+			</div>
+<?endif?>
+<!-- </block14> -->
+
